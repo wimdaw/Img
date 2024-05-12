@@ -4,7 +4,7 @@ class ImageUploader {
     private const ALLOWED_TYPES = ["image/gif", "image/jpeg", "image/jpg", "image/pjpeg", "image/x-png", "image/png"];
     private const MAX_SIZE = 5 * 1024 * 1024; // 5MB
     private const DOMAINS = ['img.moew.eu.org', 'caoshuo.cc'];
-    private const UPLOAD_URL = 'https://img.moew.eu.org/upload';
+    private const UPLOAD_URL = 'https://telegra.ph/upload';
 
     public function upload(): void {
         try {
